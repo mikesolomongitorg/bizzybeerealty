@@ -1,6 +1,12 @@
+body {
+	color: white;
+}
+ul {
+	font-family: 'Assistant', sans-serif;
+
+}
 h1 {
 	font-family: 'Shrikhand', cursive;
-	color: white;
 	font-size: 72px;
 	text-shadow: 2px 2px 8px #000;
 }
@@ -12,4 +18,10 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  font-size: 24px;
+  text-shadow: .5px .5px 4px #000;
+}
+
+.middle {
+	position: relative; top: 50%; transform: translateY(-50%);
 }
