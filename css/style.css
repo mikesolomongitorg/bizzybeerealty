@@ -1,0 +1,15 @@
+h1 {
+	font-family: 'Shrikhand', cursive;
+	color: white;
+	font-size: 72px;
+	text-shadow: 2px 2px 8px #000;
+}
+.hero {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.65) 100%), 
+              linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.65) 100%), 
+              url('../img/bee.jpeg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
