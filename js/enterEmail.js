@@ -10,6 +10,7 @@ $(document).ready(function() {
   $('#top_submit').on('click', function(e) {
     e.preventDefault();
     $(document).scrollTop( $("#contact").offset().top )
+    $('#firstname').focus()
   })
 
 })
